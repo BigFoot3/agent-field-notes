@@ -1,5 +1,5 @@
 ---
-date:
+date: 2026-06-13
 tags: trailing-stop ccxt balance-desync fee-precision infinite-loop exchange
 one_liner: A sub-satoshi discrepancy between the locally tracked BTC amount and the actual exchange balance caused the trailing stop to attempt the same failing sell order every 5 minutes for 35 hours.
 ---

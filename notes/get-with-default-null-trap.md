@@ -1,5 +1,5 @@
 ---
-date:
+date: 2026-06-13
 tags: python dict.get null-default ccxt exchange-api silent-bug
 one_liner: dict.get(key, fallback) does not trigger when the key exists with a zero value — the fallback is silently skipped, returning 0.0 instead of the computed estimate.
 ---

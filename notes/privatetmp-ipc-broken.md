@@ -1,5 +1,5 @@
 ---
-date:
+date: 2026-06-13
 tags: systemd PrivateTmp IPC tmpfs two-services flag-file
 one_liner: Two systemd services with PrivateTmp=yes each get a private /tmp namespace — a flag file written by one service is invisible to the other, silently breaking inter-process signaling.
 ---

@@ -1,5 +1,5 @@
 ---
-date:
+date: 2026-06-13
 tags: pandas memory-leak long-running-process gc.collect dataframe
 one_liner: A pandas DataFrame held alive across a 24h cache rebuild cycle pushed RSS from ~62 MB to 1.2 GB on a constrained VPS.
 ---
